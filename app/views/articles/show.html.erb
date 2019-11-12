@@ -1,0 +1,10 @@
+<div class="banner">
+  <h1>Wikinimous</h1>
+  <div class="banner-button"> <%= link_to "All articles", articles_path  %> </div>
+</div>
+
+<div class="container">
+  <h1><%= @article.title %></h1>
+  <p><%= @article.content %></p>
+  <div class="edit-button"> <%= link_to "Edit this article", edit_article_path(@article)  %> </div>
+</div>

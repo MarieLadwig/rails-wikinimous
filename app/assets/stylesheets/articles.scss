@@ -1,0 +1,58 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none
+}
+
+body {
+  margin: 0
+}
+
+.container {
+  padding: 10px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+}
+
+.banner-button a {
+  color: grey;
+}
+
+.edit-button a {
+  color: grey;
+}
+
+.card {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  h3 {
+    margin-top: 0;
+  }
+  h3 a {
+    color: black
+  }
+  p {
+    color: grey;
+  }
+  .delete a {
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: lighter;
+  }
+}
+
+input {
+  font-size: 16px;
+  color: grey;
+  width: 95%
+}
